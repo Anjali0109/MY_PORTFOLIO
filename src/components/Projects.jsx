@@ -1,9 +1,9 @@
 // src/components/Projects.jsx
 import { motion } from 'framer-motion';
 import { useState, useRef } from 'react';
-import DOCAiImage from 'D:/portfolio/my-portfolio/src/assets/doc ai(IMAGE).png';
-import powerBI from 'D:/portfolio/my-portfolio/src/assets/POWET.png';
-import FlovorFusion from 'D:/portfolio/my-portfolio/src/assets/flavor fusion.png';
+import DOCAiImage from '../assets/doc ai(IMAGE).png';
+import powerBI from '../assets/POWET.png';
+import FlovorFusion from '../assets/flavor fusion.png';
 
 const projectData = [
   {
