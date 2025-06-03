@@ -8,6 +8,7 @@ const About = () => {
   const sectionRef = useRef(null);
 
   useEffect(() => {
+    const currentRef = sectionRef.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -17,9 +18,10 @@ const About = () => {
       { threshold: 0.1 }
     );
 
-    if (sectionRef.current) observer.observe(sectionRef.current);
+    if (currentRef) observer.observe(currentRef);
+
     return () => {
-      if (sectionRef.current) observer.unobserve(sectionRef.current);
+      if (currentRef) observer.unobserve(currentRef);
     };
   }, []);
 
@@ -66,6 +68,7 @@ const About = () => {
                 src={profileImage}
                 alt="Anjali Ambeshwari"
                 className="absolute inset-2 rounded-full object-cover w-[calc(100%-16px)] h-[calc(100%-16px)] shadow-2xl"
+                loading="lazy"
               />
 
               {/* Floating tech icon 1 */}
