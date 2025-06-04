@@ -126,7 +126,7 @@ const Footer = () => {
                 href="mailto:contact@anjaliambeshwari.com" 
                 className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm"
               >
-                contact@anjaliambeshwari.com
+                contact anjaliambeshwari@gmail.com
               </a>
             </div>
           </motion.div>
