@@ -104,19 +104,17 @@ const About = () => {
             <h3 className="text-3xl font-semibold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#915EFF] to-blue-400">
               Who Am I?
             </h3>
-            <p className="text-lg leading-relaxed mb-4">
-              Hello! I'm <strong>Anjali Ambeshwari</strong>, a passionate Electronics and Communication Engineering student
-              with a deep interest in microwave and optical communication technologies.
-            </p>
-            <p className="text-lg leading-relaxed mb-4">
-              I love blending <strong>AI and communication systems</strong> to build futuristic solutions. On the side,
-              I craft beautiful web experiences using <strong>React</strong>, <strong>Tailwind CSS</strong>,
-              and <strong>Framer Motion</strong>.
-            </p>
-            <p className="text-lg leading-relaxed">
-              I thrive on learning, experimenting, and solving real-world problems with creativity and innovation.
-              Let’s build something amazing together!
-            </p>
+             <p className="mb-4 text-lg leading-relaxed text-gray-200">
+                I'm a passionate technologist with a deep interest in the intersection of web development, 
+                embedded systems, and artificial intelligence. With a strong foundation in computer science 
+                and hands-on experience, I've developed a versatile skill set that allows me to 
+                tackle complex problems with innovative solutions.
+              </p>
+              <p className="mb-6 text-lg leading-relaxed text-gray-200">
+                My journey in technology began with a fascination for how software and hardware interact to 
+                create meaningful experiences. This curiosity has guided my career path, leading me to work 
+                on projects ranging from responsive web applications to IoT systems enhanced with machine learning.
+              </p>
           </motion.div>
         </div>
       </div>
